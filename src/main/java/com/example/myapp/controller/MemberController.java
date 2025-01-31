@@ -33,7 +33,7 @@ public class MemberController {
 	
 	@Autowired
 	private MemberModelAssembler assembler;
-	//살려줘
+	//살려줘 제발
 	
     @GetMapping
     public ResponseEntity<CollectionModel<EntityModel<Member>>> getAllMembers() {
